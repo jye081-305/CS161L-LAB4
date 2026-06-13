@@ -9,3 +9,8 @@ nor $t0 $a2 $v0
 slt $a2 $a1 $a0
 beq $a2 $zero -8
 lw $t0 132($zero)
+and $t0 $t1 $t2
+addi $t3 $t4 123
+lw $t5, 135($t1)
+sw $t3, 136($t1)
+beq $t3, $zero, -10

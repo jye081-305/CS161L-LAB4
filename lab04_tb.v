@@ -40,7 +40,7 @@ initial begin
 end
 
 initial begin 
-	$readmemb("init.coe", uut.DIG_RAMDualAccess_i7.memory,0,255);
+	$readmemb("init.coe", uut.DIG_RAMDualAccess_i6.memory,0,255);
 end 
 
 lab04 uut (
